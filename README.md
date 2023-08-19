@@ -36,7 +36,7 @@ Then the code will appear like this;
 
 If you code like this, then result will be like this;
 >>>
-![튜퍼의 자기언급 공식](https://github.com/psjdavid/Tuppers_self-referential_formula/assets/94748252/3a4775d3-fba9-4af7-ba07-c3d239e08380)
+![튜퍼의 자기언급 공식](https://github.com/psjdavid/Tuppers_self-referential_formula/assets/94748252/f32c18ff-98b2-4b11-825a-9ee64f315f7d)
 
 We can find easily that it's a similar shape with the formula below!;
 
