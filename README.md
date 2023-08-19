@@ -2,7 +2,7 @@
 Emboding tupper's self-referential formula with python.
 
 This time, I'll try the method how to embody 'tupper's self-referential formula'.
-And to take it more invisible, I'll use 'hangeul'.
+And to take it more invisible, I'll use '*'.
 First of all, we should know the formula below;
 
 
@@ -12,7 +12,7 @@ $$
 
 The formula is called 'tupper's self-referential formula' because when we draw the function, we will get the similar shape of the formula.
 To change that formula into python code, you should set which text will be marker first.
-As I noticed above, I'll use hangeul, which is 'ㅇ'.
+As I noticed above, I'll use *, which is a marker.
 
 The main structure is like below;
 1. importing concept of 'floor'
@@ -29,7 +29,21 @@ Then the code will appear like this;
     for y in range(k, k+17):
       for x in range(105, -1, -1):
         if tuppers_formula(x, y):
-          print('ㅇ', end='')
+          print('*', end='')
         else:
           print(' ', end='')
       print('')
+
+If you code like this, then result will be like this;
+>>>
+
+It's a similar shape with the formula below!;
+
+$$
+\frac{1}{2}< \lfloor mod(\lfloor \frac{y}{17}\rfloor 2^{-17 \lfloor x \rfloor - mod(\lfloor y \rfloor, 17) }, 2) \rfloor
+$$
+
+This time, we became to know how to embody 'tupper's self-referential formula' with python.
+
+*I'll inform that I'm inspired by 'ray_math' who is a Korean math youtuber.
+Also, I referred WIKIPEDIA "Tupper's self-referential formula".
