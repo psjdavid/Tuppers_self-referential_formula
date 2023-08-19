@@ -36,8 +36,9 @@ Then the code will appear like this;
 
 If you code like this, then result will be like this;
 >>>
+![튜퍼의 자기언급 공식](https://github.com/psjdavid/Tuppers_self-referential_formula/assets/94748252/3a4775d3-fba9-4af7-ba07-c3d239e08380)
 
-It's a similar shape with the formula below!;
+We can find easily that it's a similar shape with the formula below!;
 
 $$
 \frac{1}{2}< \lfloor mod(\lfloor \frac{y}{17}\rfloor 2^{-17 \lfloor x \rfloor - mod(\lfloor y \rfloor, 17) }, 2) \rfloor
